@@ -1,3 +1,5 @@
+![CI](https://github.com/mm0202/starter_firestore-security-rules-test/workflows/CI/badge.svg)
+
 # Firestoreセキュリティルールのテスト環境
  
 ## パッケージインストール
