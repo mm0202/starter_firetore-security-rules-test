@@ -3,18 +3,17 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "test": "jest --forceExit --detectOpenHandles --maxWorkers=1",
-    "emu:start:firestore": "firebase emulators:start --only firestore"
+    "emu:start:firestore": "firebase emulators:start --only firestore",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "ci-test": "jest --forceExit --detectOpenHandles --maxWorkers=1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@firebase/testing": "^0.15.1",
     "@types/jest": "^24.9.1",
     "jest": "^24.9.0",
     "ts-jest": "^24.3.0",
-    "typescript": "latest",
-    "@mm0202/firestore-client": "latest"
+    "typescript": "^3.8.3",
+    "firestore-test-supporter": "github:rightcode/firestore-test-supporter#v0.0.5"
   }
 }
