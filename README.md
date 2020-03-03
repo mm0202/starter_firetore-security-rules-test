@@ -1,12 +1,11 @@
-# starter_firestore-security-rules-test
- starter for firestore security rules test
+# Firestoreセキュリティルールのテスト環境
  
-# パッケージインストール
+## パッケージインストール
 ```bash
 npm install
 ```
 
-# テストの実行
+## テストの実行
 以下のコマンドを実行。
 ```bash
 npm run emu:start:firestore & npm test
