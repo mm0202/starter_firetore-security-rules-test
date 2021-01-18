@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x]
+        node-version: [8.x, 10.x, 12.x, 13.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -22,7 +22,7 @@ jobs:
       - run: firebase setup:emulators:firestore
       - run: npm run emu:start:firestore &
       - name: エミュレータの起動待機...
-        run: sleep 3
+        run: sleep 5
       - run: npm run ci-test
         env:
           CI: true

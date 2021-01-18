@@ -1,7 +1,7 @@
 {
   "name": "starter_firestore-security-rules-test",
   "version": "0.0.1",
-  "description": "",
+  "description": "Firestoreセキュリティルールのテスト環境",
   "scripts": {
     "emu:start:firestore": "firebase emulators:start --only firestore",
     "test": "jest",
